@@ -136,7 +136,7 @@ The server binds to port `8080` by default.
 
 ## 6. REST API Endpoints & Sample Requests
 
-All business logic resides in the domain/service layers. Controllers delegate directly to `CourseRegistrationService`, and [`GlobalExceptionHandler`](file:///Users/devakinandagopal/Desktop/Learning/Projects/CS/src/main/java/com/example/courseregistration/controller/exception/GlobalExceptionHandler.java) formats errors into consistent JSON responses without exposing internal stack traces.
+All business logic resides in the domain/service layers. Controllers delegate directly to `CourseRegistrationService`, and [`GlobalExceptionHandler`](src/main/java/com/example/courseregistration/controller/exception/GlobalExceptionHandler.java) formats errors into consistent JSON responses without exposing internal stack traces.
 
 ### 6.1 Endpoints Summary
 
@@ -332,9 +332,9 @@ course-registration-waitlist/
 
 ## 8. Companion Documentation
 
-- **[DESIGN.md](file:///Users/devakinandagopal/Desktop/Learning/Projects/CS/DESIGN.md)**: Detailed design specification, service boundary, API contracts, state transitions, concurrency model, and architectural trade-offs.
-- **[AI_USAGE.md](file:///Users/devakinandagopal/Desktop/Learning/Projects/CS/AI_USAGE.md)** / **[AI_USE_RECORD.md](file:///Users/devakinandagopal/Desktop/Learning/Projects/CS/AI_USE_RECORD.md)**: Complete trace of all prompts, AI suggestions, human review decisions, code changes, and verification evidence across all 7 records.
-- **[Course-Registration-Rubric-Score.md](file:///Users/devakinandagopal/Desktop/Learning/Projects/CS/Course-Registration-Rubric-Score.md)**: Assessment evaluation rubric and comprehensive 13-item acceptance criteria mapping checklist.
+- **[DESIGN.md](DESIGN.md)**: Detailed design specification, service boundary, API contracts, state transitions, concurrency model, and architectural trade-offs.
+- **[AI_USAGE.md](AI_USAGE.md)** / **[AI_USE_RECORD.md](AI_USE_RECORD.md)**: Complete trace of all prompts, AI suggestions, human review decisions, code changes, and verification evidence across all 7 records.
+- **[Course-Registration-Rubric-Score.md](Course-Registration-Rubric-Score.md)**: Assessment evaluation rubric and comprehensive 13-item acceptance criteria mapping checklist.
 
 ---
 
