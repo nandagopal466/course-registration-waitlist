@@ -59,41 +59,7 @@ Instructions:
 
 ---
 
-## Record 2: Documentation & Policy Specification (Phase 1 Follow-up)
-
-### Prompt
-```text
-based on document add readme whereever necessary
-[Attached: Focused AI-Assisted Engineering Assessment: Course Waitlist PDF]
-```
-
-### AI Response Summary
-- Identified assessment deliverables and candidate expectations from the document:
-  1. Service boundary and problem statement.
-  2. Documented prerequisite rule and waitlist policy (specifically addressing whether ineligible learners are skipped or retained).
-  3. System invariants and thread-safety / concurrency model.
-  4. Design specification document (`DESIGN.md`).
-  5. AI prompt tracking record (`AI_USE_RECORD.md`).
-  6. Assessment scorecard (`Course-Registration-Rubric-Score.md`).
-- Structured `README.md` to provide comprehensive architecture, setup, testing, and policy details.
-- Formulated the "Skip and Retain" policy for waitlisted learners who are ineligible when a seat opens, with clear justification.
-
-### Human Review & Decision
-- **Decision**: **Accepted**.
-- **Rationale**: The separation into `README.md`, `DESIGN.md`, `AI_USE_RECORD.md`, and `Course-Registration-Rubric-Score.md` completely fulfills the assessment deliverables and provides transparent documentation.
-- **Files Informed**:
-  - `README.md`
-  - `DESIGN.md`
-  - `AI_USE_RECORD.md`
-  - `Course-Registration-Rubric-Score.md`
-
-### Verification Evidence
-- Markdown files validated with consistent headings, mermaid diagrams, and accurate file references.
-- Verified build and test commands match the actual runnable project structure.
-
----
-
-## Record 3: Requirements Definition & System Design (Phase 2)
+## Record 2: Requirements Definition & System Design (Phase 2)
 
 ### Prompt
 ```text
@@ -166,7 +132,7 @@ Do not implement the business logic in this phase. Do not add a configurable pol
 
 ---
 
-## Record 4: Domain Models and In-Memory Storage Implementation (Phase 3)
+## Record 3: Domain Models and In-Memory Storage Implementation (Phase 3)
 
 ### Prompt
 ```text
@@ -232,7 +198,7 @@ Before modifying files, list the planned classes. After implementation, compile 
 
 ---
 
-## Record 5: Enrollment Business Logic Implementation (Phase 4)
+## Record 4: Enrollment Business Logic Implementation (Phase 4)
 
 ### Prompt
 ```text
@@ -293,7 +259,7 @@ Run the relevant tests and report the actual outcomes. Do not proceed until the 
 
 ---
 
-## Record 6: Drop and FIFO Promotion Implementation (Phase 5)
+## Record 5: Drop and FIFO Promotion Implementation (Phase 5)
 
 ### Prompt
 ```text
@@ -364,7 +330,7 @@ Run the relevant tests and explain the actual behavior. Do not move on until the
 
 ---
 
-## Record 7: REST API Implementation & Contract Alignment (Phase 6)
+## Record 6: REST API Implementation & Contract Alignment (Phase 6)
 
 ### Prompt
 ```text
@@ -429,7 +395,7 @@ Run the complete test suite and report actual results. Update DESIGN.md if the f
 - Result: `BUILD SUCCESS` (51 total tests passed, 0 failures, 0 errors in 2.760s).
 ---
 
-## Record 8: Acceptance Tests & Independent Engineering Review (Phase 7)
+## Record 7: Acceptance Tests & Independent Engineering Review (Phase 7)
 
 ### Prompt
 ```text

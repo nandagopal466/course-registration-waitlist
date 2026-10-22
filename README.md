@@ -333,7 +333,7 @@ course-registration-waitlist/
 ## 8. Companion Documentation
 
 - **[DESIGN.md](file:///Users/devakinandagopal/Desktop/Learning/Projects/CS/DESIGN.md)**: Detailed design specification, service boundary, API contracts, state transitions, concurrency model, and architectural trade-offs.
-- **[AI_USAGE.md](file:///Users/devakinandagopal/Desktop/Learning/Projects/CS/AI_USAGE.md)** / **[AI_USE_RECORD.md](file:///Users/devakinandagopal/Desktop/Learning/Projects/CS/AI_USE_RECORD.md)**: Complete trace of all prompts, AI suggestions, human review decisions, code changes, and verification evidence across all 8 phases.
+- **[AI_USAGE.md](file:///Users/devakinandagopal/Desktop/Learning/Projects/CS/AI_USAGE.md)** / **[AI_USE_RECORD.md](file:///Users/devakinandagopal/Desktop/Learning/Projects/CS/AI_USE_RECORD.md)**: Complete trace of all prompts, AI suggestions, human review decisions, code changes, and verification evidence across all 7 records.
 - **[Course-Registration-Rubric-Score.md](file:///Users/devakinandagopal/Desktop/Learning/Projects/CS/Course-Registration-Rubric-Score.md)**: Assessment evaluation rubric and comprehensive 13-item acceptance criteria mapping checklist.
 
 ---
